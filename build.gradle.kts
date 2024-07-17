@@ -13,6 +13,7 @@ repositories {
     maven("http://repo.crypticlib.com:8081/repository/maven-public/") {
         isAllowInsecureProtocol = true
     }
+    maven("https://repo.dmulloy2.net/repository/public/")
     maven("https://jitpack.io")
     maven("https://repo.rosewooddev.io/repository/public/")
     maven("https://repo.extendedclip.com/content/repositories/placeholderapi/")
@@ -32,9 +33,8 @@ dependencies {
     compileOnly("org.jetbrains:annotations:24.0.1")
     compileOnly("io.papermc.paper:paper-api:1.20.6-R0.1-SNAPSHOT")
     compileOnly("org.spigotmc:spigot-api:1.20.4-R0.1-SNAPSHOT")
-    compileOnly("net.luckperms:api:5.4")
+    compileOnly("com.comphenix.protocol:ProtocolLib:5.1.0")
     compileOnly("net.kyori:adventure-api:4.14.0")
-    compileOnly("com.github.MilkBowl:VaultAPI:1.7")
     compileOnly("me.clip:placeholderapi:2.11.1")
 }
 

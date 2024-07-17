@@ -13,7 +13,6 @@ public class PlayerJoinListener implements Listener {
     public void handle(PlayerJoinEvent event) {
         Player player = event.getPlayer();
 
-        Bukkit.getConsoleSender().sendMessage(ChatColor.AQUA + "------");
         ItemStackManager.load("tcc_server");
         player.getInventory().addItem(ItemStackManager.getItem("tcc_server"));
     }

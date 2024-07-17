@@ -1,0 +1,10 @@
+name: CustomItemDemo
+version: '1.0.0-20240717'
+description: demo Project
+main: com.tinyshellzz.customitemdemo.CustomItemDemo
+api-version: '1.20.6'
+load: POSTWORLD
+softdepend: [ Vault, LuckPerms, PlaceholderAPI ]
+authors: [ Tinyshellzz ]
+folia-supported: true
+website: https://github.com/

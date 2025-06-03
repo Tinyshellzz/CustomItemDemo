@@ -13,6 +13,7 @@ public class PlayerJoinListener implements Listener {
     public void handle(PlayerJoinEvent event) {
         Player player = event.getPlayer();
 
+
         ItemStackManager.load("tcc_server");
         player.getInventory().addItem(ItemStackManager.getItem("tcc_server"));
     }
